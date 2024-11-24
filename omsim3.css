@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+header h1 {
+  display: inline;
+  font-size: 1.8em;
+  vertical-align: middle;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #00509e;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffdd57;
+}
+
+/* Strands Section */
+.strands-content {
+  padding: 40px;
+  text-align: center;
+}
+
+.strands-content h2 {
+  color: #003366;
+  font-size: 2em;
+}
+
+.strands-content p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Individual Strand Boxes */
+.strand {
+  background-color: #ffffff;
+  border: 2px solid #003366;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.strand:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.strand img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.strand h3 {
+  color: #00509e;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.strand p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+footer p {
+  margin: 0;
+}
